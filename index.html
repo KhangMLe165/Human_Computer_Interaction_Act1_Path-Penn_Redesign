@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penn – Search Classes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="phone">
+
+    <!-- Top Header -->
+    <header class="top-header">
+      <div class="logo">Penn</div>
+      <div class="welcome">Welcome, Julene</div>
+    </header>
+
+    <!-- Red Title Bar -->
+    <div class="title-bar">
+      Search Classes
+    </div>
+
+    <!-- Main Content -->
+    <main class="content">
+      <form class="search-form">
+
+        <!-- Term Selector -->
+        <select class="input">
+          <option selected>Spring 2026</option>
+          <option>Fall 2026</option>
+          <option>Fall 2025</option>
+          <option>Spring 2025</option>
+        </select>
+
+        <!-- Program / Subject Selector -->
+        <select class="input">
+          <option selected>Computer &amp; Info Science (CIS)</option>
+          <option>Electrical Engineering</option>
+          <option>Mechanical Engineering</option>
+        </select>
+
+        <!-- Electives / Core Selector -->
+        <select class="input">
+          <option disabled selected>Electives / Core</option>
+          <option>Electives</option>
+          <option>Core</option>
+        </select>
+
+        <!-- Instruction Method Selector -->
+        <select class="input">
+          <option disabled selected>Instruction Methods</option>
+          <option>In-Person</option>
+          <option>Online</option>
+        </select>
+
+        <!-- Optional Checkboxes -->
+        <div class="checkbox-group">
+          <label class="checkbox">
+            <input type="checkbox" />
+            <span>Find courses available to students in online programs</span>
+          </label>
+
+          <label class="checkbox">
+            <input type="checkbox" />
+            <span>Don’t Overlap Primary Cart</span>
+          </label>
+        </div>
+
+        <!-- Search Button -->
+        <button type="button" class="search-btn">
+          SEARCH
+        </button>
+
+      </form>
+
+      <!-- Suggestions Section -->
+      <section class="section">
+        <div class="section-header">SUGGESTIONS</div>
+
+        <button type="button" class="secondary-button">
+          EXPLORE PROGRAMS
+        </button>
+
+        <button type="button" class="secondary-button">
+          DEGREE AUDIT &amp; ADVISING
+        </button>
+      </section>
+
+      <!-- Carts Section -->
+      <section class="section">
+        <div class="section-header">CARTS</div>
+
+        <button type="button" class="secondary-button">
+          PRIMARY CART
+        </button>
+
+        <select class="input">
+          <option selected disabled>Select a Cart...</option>
+          <option>Primary Cart</option>
+          <option>Backup Cart</option>
+        </select>
+      </section>
+
+    </main>
+
+  </div>
+</body>
+</html>
